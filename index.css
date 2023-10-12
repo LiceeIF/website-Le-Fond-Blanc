@@ -6,20 +6,59 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .logo{
     display:flex;
     justify-content: right;
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+
+h1{
+    font-size: 57px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+}
+
+.introducao{
+    font-size: x-large;
+    color: #000;
+}
+
+.italico{
+    color: rgb(89, 112, 109);
+}
+
+.botao-container{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.botao-container button{
+    background-color: #899cad;
+    color: #fff;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
 }
 
 a{
+    color: black;
     display: flex;
+    margin: 0 10px;
     justify-content: center;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: 0.8s;
 }
-
-
 
 .ticker-container {
     padding: 10px 0;
