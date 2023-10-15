@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    /*background: linear-gradient(68.15deg, #d8d8d8 15.62%, #ffffff 16.61% );*/
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 310px;
+    height: auto;
+    border-radius: 0%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+}
+    
