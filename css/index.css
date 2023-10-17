@@ -116,7 +116,7 @@ a{
     border-top: 0.4px solid #000;
     padding-top: 48px;
     font-family: 'Libre Baskerville', serif;    
-    font-weight: 400;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 16px;
 }
@@ -158,7 +158,7 @@ p{
 
 .foto-integrante{
     border-radius: 50%;
-    height: 250px;
+    height: 160px;
     width: auto;
     display: inline-block;
     margin-right: 10px;
@@ -174,3 +174,143 @@ p{
     display: block;
     margin: 0 auto;
 }
+
+
+/*NÃO SÃO NECESSÁRIAS ALTERAÇÕES NO CARROSSEL DE TICKERS DA BOLSA - CÓDIGO RETIRADO DO SITE E-ESTADAO*/
+
+
+.ticker-container {
+    padding: 10px 0;
+    background-color: #fff;
+    overflow:hidden;
+    font-family: 'Righteous', cursive;
+}
+
+.ticker-disclaimer {
+    color: #fefdfd;
+    text-transform: lowercase;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    background: #f5f5f5;
+    padding: 16px 10px 17px;
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+    top: 0;
+    border-left: 1px solid #e2e4e3;
+}
+
+.ticker-container .ticker-carroussel::-webkit-scrollbar {
+    display: none;
+}
+
+.ticker-container .ticker-content {
+    white-space: nowrap;
+    animation: marquee 40s linear 8s infinite;
+    display: inline-block;
+}
+
+.ticker-container:hover .ticker-content {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+
+.ticker-container {
+    padding: 10px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.ticker-disclaimer {
+    color: #000;
+    text-transform: lowercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: #f5f5f5;
+    padding: 16px 10px 17px;
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+    top: 0;
+    border-left: 1px solid #f5f5f5;
+}
+
+.ticker-container .ticker-carroussel::-webkit-scrollbar {
+    display: none;
+}
+
+.ticker-container .ticker-content {
+    white-space: nowrap;
+    animation: marquee 40s linear 8s infinite;
+    display: inline-block;
+}
+
+.ticker-container:hover .ticker-content {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+
+.ticker-container .ticker-content .ticker-content-aditional {
+    float: right;
+    position: absolute;
+    display: inline-block;
+}
+
+.indicador {
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    position: relative;
+    color: inherit;
+    padding: 6px 20px;
+    border-right: 1px solid #ffffff;
+    display: inline-block;
+    text-align: left;
+}
+
+.indicador .indicador-title {
+    margin-right: 8px;
+    font-weight: 900;
+}
+
+.indicador .indicador-value {
+    margin-right: 8px;
+}
+
+.indicador .indicador-spread {
+    padding: 3px 7px;
+    border-radius: 3px;
+    color: #ffffff;
+    transition: top 0s 0.5s ease ;
+}
+
+.indicador.negativo .indicador-spread {
+    background-color: #AD1A1A;
+}
+.indicador.positivo .indicador-spread {
+    background-color: #01654A;
+}
+
+/*TERMINO DO CÓDIGO QUE PERSONALIZA O CARROSSEL DE TICKERS DA BOLSA - CÓDIGO PRONTO, NÃO ALTERAR*/
+
