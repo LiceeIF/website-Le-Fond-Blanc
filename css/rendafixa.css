@@ -29,3 +29,27 @@ body{
     border-top: 0.4px solid #000;
 
 }
+
+.introducao-paragrafo{
+    text-indent: 55px;
+}
+
+.cdb-paragrafo{
+    text-indent: 55px;
+}
+
+.poupanca-paragrafo{
+    text-indent: 55px;
+}
+
+.lca-paragrafo{
+    text-indent: 55px;
+}
+
+.lci-paragrafo{
+    text-indent: 55px;
+}
+
+.cdb-ul{
+    text-indent: 55px;
+}
