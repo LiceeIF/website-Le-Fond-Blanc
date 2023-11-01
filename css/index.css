@@ -117,7 +117,7 @@ a{
 }
 
 .conteudo-secundario-titulo{
-	border-top: 0.4px solid #000;
+	border-top: 0.4px solid #000;	
 	padding-top: 48px;
 	font-family: 'Libre Baskerville', serif;    
 	font-weight: 600;
@@ -187,6 +187,7 @@ p{
 
 
 .ticker-container {
+	border-top: 0.4px solid #000;
 	padding: 10px 0;
 	background-color: #fff;
 	overflow:hidden;

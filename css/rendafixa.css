@@ -24,3 +24,8 @@ body{
     justify-content: space-around;
     padding: 24px;
 }
+
+.content{
+    border-top: 0.4px solid #000;
+
+}
