@@ -14,42 +14,51 @@ body{
 	color: rgb(0, 0, 0);
 }
 
-.logo{
+/*.logo{
 	width: 310px;
 	height: auto;
 	border-radius: 0%;
+}*/
+
+.logo-direito {
+    width: 80px;
+    margin-left: auto; 
+	align-items: left;
 }
 
-.cabecalho{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 24px;
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    padding: 24px;
 }
 
 .cabecalho-menu{
 	display: flex;
 	gap: 32px;
+	align-items: left;
 }
 
 .cabecalho-menu-item{
 	font-family: 'Sarala', sans-serif;
+	margin-top: 15px;
 	color:#000;
 	font-weight: 700;
 	font-size: 18px;
+	align-items: end;
 }
 
-.logo-corpo{
+/*.logo-corpo{
 	border-radius: 50%;
 	margin-top: 20px;
 	width: 400px;
 	height: 400px
-}
+}*/
 
 .conteudo{
-	margin-bottom: 48px;
-	border-top: 0.4px solid rgb(23, 21, 21);
+	margin-top: 100px;
+	border-bottom: 0.9px solid rgb(23, 21, 21);
 }
 
 .conteudo-principal{
@@ -60,6 +69,7 @@ body{
 }
 
 .conteudo-principal-escrito{
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
@@ -80,6 +90,7 @@ h2{
 }
 
 .botao{
+	align-items: center;
 	background-color: #7d8b8c;
 	width: 185px;
 	height: 67px;
@@ -125,7 +136,7 @@ a{
 	margin-bottom: 16px;
 }
 
-
+/*ignorar esta parte pois foi atribuido ao html a propriedade tabela*/
 /*.conteudo-terciario{
 	display: flex;
 	flex-direction: column;
@@ -160,24 +171,45 @@ p{
 	font-weight: bold;
 } */
 
+.main{
+	/*border-bottom: 0.4px solid white;*/
+}
+
+
+/*.container{
+}*/
+
 .foto-integrante{
 	border-radius: 50%;
 	height: 160px;
 	width: auto;
 	display: inline-block;
+	margin-top: 30px;
+}
+
+.titulo-integrante{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.texto-integrante{
+	margin-bottom: 10px;
 }
 
 .configuracao{
 	flex-direction: row;
+	margin-bottom: 0px;
+	border-top: none;
 }
 
 .rodape{
+	margin-top: 100px;
 	padding: 32px;
 	border-top: 0.4px solid #000;
 }
 
 .rodape-imagem{
-	height: 60px;
+	height: 40px;
 	display: block;
 	margin: 0 auto;
 }
@@ -188,6 +220,7 @@ p{
 
 .ticker-container {
 	border-top: 0.4px solid #000;
+	border-bottom: 0.4px solid #000;
 	padding: 10px 0;
 	background-color: #fff;
 	overflow:hidden;

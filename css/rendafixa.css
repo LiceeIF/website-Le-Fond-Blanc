@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box; 
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     text-decoration: none;
 }
 
@@ -23,6 +23,21 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+}
+
+.sumario{
+    padding-left: 35px;
+    font-weight: bold; 
+    line-height: 0.50;
+}
+
+.secoes{
+    color: black;
+}
+
+.secoes:hover{
+    color: #01796F;
+    transition: 0.9s;
 }
 
 .content{
@@ -51,5 +66,13 @@ body{
 }
 
 .cdb-ul{
-    text-indent: 55px;
+    padding-left: 35px;
+    font-weight: bold; 
+    line-height: 0.50;
+}
+
+.referencias-texto{
+    color: #000;
+    font-size: 12px;
+    line-height: 0;
 }
