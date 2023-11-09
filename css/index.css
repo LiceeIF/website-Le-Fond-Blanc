@@ -176,8 +176,13 @@ p{
 }
 
 
-/*.container{
-}*/
+.container{
+	border-bottom: none;
+} 
+
+.container-tabela{
+	border-bottom: yellowgreen;
+}
 
 .foto-integrante{
 	border-radius: 50%;
@@ -185,6 +190,7 @@ p{
 	width: auto;
 	display: inline-block;
 	margin-top: 30px;
+	justify-content:space-between;
 }
 
 .titulo-integrante{
@@ -212,6 +218,10 @@ p{
 	height: 40px;
 	display: block;
 	margin: 0 auto;
+}
+
+.tabela-fotos{
+
 }
 
 

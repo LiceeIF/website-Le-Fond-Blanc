@@ -25,6 +25,15 @@ body{
     padding: 24px;
 }
 
+.cabecalho-menu-item{
+    color: #000;
+}
+
+.cabecalho-menu-item:hover{
+    color: #01796F;
+    transition: 0.9s;
+}
+
 .sumario{
     padding-left: 35px;
     font-weight: bold; 

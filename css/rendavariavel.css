@@ -8,7 +8,7 @@ body{
     margin: 16px;
     font-size: 100%;
     margin: 12px;   
-    /*background: linear-gradient(68.15deg, #d8d8d8 15.62%, #ffffff 16.61% );*/
+    /* background: linear-gradient(68.15deg, #d8d8d8 15.62%, #ffffff 16.61% ); */
     color: rgb(0, 0, 0);
     /*background-color: #000;*/
 }
@@ -99,4 +99,17 @@ p{
     color: #000;
     margin: 20px 0;
     gap: 5px;
+}
+
+
+.rodape{
+	margin-top: 100px;
+	padding: 32px;
+	border-top: 0.4px solid #000;
+}
+
+.rodape-imagem{
+	height: 40px;
+	display: block;
+	margin: 0 auto;
 }
