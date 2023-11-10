@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 *{
     padding: 0;
     /*box-sizing: border-box;*/
@@ -27,12 +30,13 @@ a {
     text-decoration:dashed;
     color: #000;
     cursor: pointer;
+    font-family: 'Righteous', cursive;
 }
 
 a:hover {
     text-decoration: none;
     color: palevioletred;
-    transition: 8s;
+    transition: 0.5s;
 }
 
 .introducao{
@@ -83,7 +87,7 @@ h2{
 }
 
 .cabecalho-menu-item{
-    font-family: 'Sarala', sans-serif;
+    /*font-family: 'Sarala', sans-serif;*/
     color: rgb(0, 0, 0);
     font-weight: 400;
     font-size: 18px;
@@ -113,3 +117,7 @@ p{
 	display: block;
 	margin: 0 auto;
 }
+
+/*.tradingview-widget-container{
+    align-items: center;
+}*/

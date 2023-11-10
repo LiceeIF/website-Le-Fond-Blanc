@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renda variável: principais ativos - Le Fond Blanc</title>
     <link rel="stylesheet" href="css/rendavariavel.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
     <style>
         .title{
             display: flex;
@@ -25,9 +27,6 @@
         <nav class="cabecalho-menu">
             <a href="index.html" class="#cabecalho-menu-item">Le Fond Blanc</a> <!-- fazer o clique parar no final da site-->
         </nav>
-
-        
- <!--<script src="index.js"></script>-->
     </header>
 
     <main class="conteudo-principal"> 
@@ -59,7 +58,7 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="black-text"> GRÁFICO RETIRADO DO SITE TradingView</span></a></div>
+    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="red-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
     {
     "symbols": [
@@ -76,10 +75,10 @@
         "MSFT|1D"
       ],
       [
-        "NASDAQ:AMZN|1D"
+        "NASDAQ:AMZN|ALL"
       ],
       [
-        "NASDAQ:META|1D"
+        "NASDAQ:META|ALL"
       ]
     ],
     "chartOnly": false,
@@ -96,9 +95,9 @@
     "scalePosition": "right",
     "scaleMode": "Normal",
     "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
-    "fontSize": "11",
+    "fontSize": "10",
     "noTimeScale": false,
-    "valuesTracking": "2",
+    "valuesTracking": "1",
     "changeMode": "price-and-percent",
     "chartType": "area",
     "maLineColor": "#2962FF",
@@ -107,11 +106,6 @@
     "fontColor": "rgba(0, 0, 0, 1)",
     "lineWidth": 3,
     "lineType": 0,
-    "compareSymbol": {
-      "symbol": "BMFBOVESPA:IBOV",
-      "lineColor": "rgba(233, 30, 99, 1)",
-      "lineWidth": 2
-    },
     "dateRanges": [
       "1d|1",
       "1m|30",
@@ -120,7 +114,9 @@
       "60m|1W",
       "all|1M"
     ],
-    "lineColor": "rgba(247, 124, 128, 1)"
+    "lineColor": "rgba(255, 255, 255, 1)",
+    "topColor": "rgba(165, 214, 167, 1)",
+    "bottomColor": "rgba(250, 161, 164, 1)"
   }
     </script>
   </div>
@@ -157,16 +153,46 @@
                         <h2 id="subsecao-1-1">Ações diversas</h2>
                     </div>
                     <p class="acao-titulo">1º APPLE Inc. (AAPL):
-                        <p> <b>Descrição:</b> A Apple é uma das maiores empresas de tecnologia do mundo, conhecida por
-                        seus dispositivos como o iPhone, iPad, Mac e serviços como a App Store e o Apple Music. </p>
+                    <p> <b>Descrição:</b> A Apple Inc. se dedica ao design, fabricação e venda de smartphones, computadores pessoais,
+                        tablets, wearables e acessórios, e outros serviços relacionados. Ela opera através dos seguintes segmentos 
+                        regionais: Américas, Europa, China, Japão e Resto da Ásia-Pacífico. O segmento das Américas inclui as Américas
+                        do Norte e do Sul. O segmento da Europa consiste em países europeus, assim como Índia, Oriente Médio e África.
+                        O segmento da China compreende a China, Hong Kong e Taiwan. O segmento do resto da Ásia-Pacífico inclui a Austrália
+                        e países asiáticos. Seus produtos e serviços incluem iPhone, Mac, iPad, AirPods, Apple TV, Apple Watch, produtos Beats,
+                        Apple Care, iCloud, lojas de conteúdo digital, streaming, e serviços de licenciamento. 
+                            <br>A empresa foi fundada por Steven Paul Jobs, Ronald Gerald Wayne, e Stephen G. Wozniak em 1976 e está sediada em Cupertino, CA. </br>
+                    </p>
                         <p> <b>Destaque:</b> A Apple possui uma base de clientes leais e é conhecida por seu design inovador,
                         qualidade de produtos e ecossistema integrado. </p>
 
                         <p class="acao-titulo"> 2º AMAZON.COM Inc. ( AMZO34): </p>
-                        <p>Descrição: A Amazon é uma gigante do comércio eletrônico que também está envolvida em
-                        serviços em nuvem (AWS), entretenimento (Prime Video) e e-commerce.</p>
+                        <p>Descrição: Amazon.com, Inc. se dedica à prestação de serviços de compras de varejo on-line. 
+                            Ela opera através dos seguintes segmentos de negócios: América do Norte, Internacional, e Amazon Web Services (AWS). 
+                            O segmento da América do Norte inclui vendas de varejo de produtos de consumo e assinaturas através de websites 
+                            focados na América do Norte, como www.amazon.com e www.amazon.ca. O segmento Internacional oferece vendas a varejo de 
+                            produtos de consumo e assinaturas através de websites com foco internacional. O segmento Amazon Web Services envolve as vendas 
+                            globais de computação, armazenamento, banco de dados e ofertas de serviços AWS para start-ups, empresas, agências governamentais e instituições acadêmicas. 
+                            <br>A empresa foi fundada por Jeffrey P. Bezos em julho de 1994 e está sediada em Seattle, WA.</br>
+                           </p>
                         <p>Destaque: A Amazon domina o comércio online e é líder em serviços em nuvem, além de
                         estar constantemente expandindo para novos setores.</p>
+
+                        <!-- TradingView Widget BEGIN 
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                            {
+                            "width": 480,
+                            "height": 650,
+                            "colorTheme": "light",
+                            "isTransparent": false,
+                            "symbol": "NASDAQ:AMZN",
+                            "locale": "br"
+                        }
+                            </script>
+                        </div>
+                        TradingView Widget END -->
 
                         <p class="acao-titulo"> 3º MICROSOFT CORPORATION (MSFT): </p>
                         <p>Descrição: A Microsoft é uma das maiores empresas de tecnologia do mundo, com produtos
@@ -263,6 +289,7 @@
                         gestão dos imóveis e influência sobre as decisões dos demais proprietários. O fundo adota
                         uma abordagem de investimento de longo prazo, combinando a geração de renda com a
                         valorização do patrimônio.
+
                         <p class="fii-titulo"> 3º XPPR11 (XP PROPETIES): </p>
                         <br>O XP Properties (código XPPR11) é um Fundo de Investimento Imobiliário (FII) que possui
                         uma estratégia de gestão focada em três áreas específicas: lajes corporativas, educação e
@@ -295,6 +322,7 @@
                         ativos e buscando lucros imobiliários por meio da reciclagem do portfólio. Sua carteira inclui
                         ativos no Estado de São Paulo, e sua gestão é realizada por profissionais qualificados,
                         visando maximizar os retornos para os investidores.
+
                         <p class="fii-titulo">LVBI11 (VBI LOGÍSTICO FII):</p> 
                         <br><b> ㅤㅤO Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11)</b> é um fundo listado
                         na B3 (Bolsa de Valores brasileira) com o objetivo principal de gerar renda e ganho de capital
@@ -329,6 +357,7 @@
                         localizados em áreas estratégicas de distribuição, com destaque para a proximidade com São
                         Paulo. O fundo visa a construir um portfólio diversificado, líquido e resiliente para benefício
                         dos investidores.
+
                         <p class="fii-titulo">JSRE11 (JS REAL ESATE MULTIGESTÃO FII):</p>
                         <br><b> ㅤㅤO JS Real Estate Multigestão FII (JSRE11)</b> é um Fundo de Investimento Imobiliário (FII) que
                         adota uma abordagem de multigestão, o que significa que conta com diversos gestores para

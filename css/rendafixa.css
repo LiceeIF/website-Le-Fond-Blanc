@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box; 
     padding: 5px;
     margin: 10px;
     text-decoration: none;
+}
+
+.titulo-paragrafo{
+    font-family: 'Righteous', cursive;
+    font-size: xx-large;
+    font-weight: none;
+    /*background: linear-gradient(135.15deg,#01796F , #fff);*/
+    color:#000;
+    text-align: center  ;
+}
+
+.texto-titulo-paragrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
 }
 
 body{
@@ -27,6 +45,8 @@ body{
 
 .cabecalho-menu-item{
     color: #000;
+    font-family: 'Righteous', cursive;
+
 }
 
 .cabecalho-menu-item:hover{
@@ -84,4 +104,16 @@ body{
     color: #000;
     font-size: 12px;
     line-height: 0;
+}
+
+.rodape{
+	margin-top: 100px;
+	padding: 32px;
+	border-top: 0.4px solid #000;
+}
+
+.rodape-imagem{
+	height: 40px;
+	display: block;
+	margin: 0 auto;
 }
