@@ -17,7 +17,7 @@
 }
 
 .titulo-paragrafo-principal{
-    border-top: 0.4px solid #000;
+    /*border-top: 0.4px solid #000;*/
 }
 
 .texto-titulo-paragrafo{
@@ -27,6 +27,8 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     font-size: 100%;
     /*background: linear-gradient(68.15deg, #d8d8d8 15.62%, #ffffff 16.61% );*/
     color: rgb(0, 0, 0);
@@ -36,18 +38,20 @@ body{
     width: 310px;
     height: auto;
     border-radius: 0%;
+    display: block;
 }
 
 .cabecalho{
+    margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 16px;
+    background-color: #000;
 }
 
 .cabecalho-menu-item{
-    color: #000;
+    color: #fff;
     font-family: 'Righteous', cursive;
 
 }
@@ -74,7 +78,7 @@ body{
 }
 
 .content{
-    border-top: 0.4px solid #000;
+    /*border-top: 0.4px solid #000;*/
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -87,6 +91,14 @@ body{
 .cdb-paragrafo{
     text-indent: 55px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.img-cdb{
+    display: block; 
+    margin: 0 auto; 
+    width: 500px;
+    height: auto;
+    padding-top: 0px;
 }
 
 .poupanca-paragrafo{
@@ -108,6 +120,10 @@ body{
     padding-left: 35px;
     font-weight: bold; 
     line-height: 0.50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conclusion-text{
     font-family: 'Montserrat', sans-serif;
 }
 
