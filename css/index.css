@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 
 *{
 	margin: 0;
@@ -22,14 +23,14 @@ body{
 
 .logo-direito {
     width: 80px;
-    margin-left: auto; 
-	align-items: left;
+    margin-left: auto; /* Isso alinha à direita */
+    margin-right: 0; /* Garante que não haja margem à direita */
 }
 
 .cabecalho {
     display: flex;
     flex-direction: row;
-    align-items: left;
+    align-items: right;
     justify-content: space-around;
     padding: 24px;
 }
@@ -37,7 +38,7 @@ body{
 .cabecalho-menu{
 	display: flex;
 	gap: 32px;
-	align-items: left;
+	align-items: right;
 }
 
 .cabecalho-menu-item{
@@ -61,6 +62,11 @@ body{
 	/*border-bottom: 0.9px solid rgb(23, 21, 21);*/
 }
 
+.conteudo-principal-escrito-texto{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
 .conteudo-principal{
 	display: flex;
 	flex-direction: row;
@@ -69,6 +75,7 @@ body{
 }
 
 .conteudo-principal-escrito{
+	font-family: 'Montserrat', sans-serif;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -83,7 +90,7 @@ body{
 }
 
 h2{
-	font-family: 'Libre Baskerville', serif;    
+	font-family: 'Montserrat', sans-serif;    
 	font-weight: 400;
 	font-size: 24px;
 	color: #000;
@@ -130,10 +137,13 @@ a{
 .conteudo-secundario-titulo{
 	border-top: 0.4px solid #000;	
 	padding-top: 48px;
-	font-family: 'Libre Baskerville', serif;    
-	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 	font-size: 24px;
 	margin-bottom: 16px;
+}
+.conteudo-secundario-texto{
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*ignorar esta parte pois foi atribuido ao html a propriedade tabela*/
@@ -189,20 +199,26 @@ p{
 	height: 160px;
 	width: auto;
 	display: inline-block;
-	margin-top: 30px;
-	
+	margin-top: 45px;
+	margin-left: 30px;
 }
 
 .titulo-integrante{
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: lighter;
 	margin-top: 15px;
 	margin-bottom: 10px;
 	color: #000;
 }
 
 .texto-integrante{
+	font-family: 'Montserrat', sans-serif;
+	font-size: small;
 	margin-bottom: 10px;
 	color: #000;
 	text-align: center;	
+	margin-left: 30px;
+	margin-bottom: 60px;
 }
 
 .configuracao{
@@ -267,7 +283,7 @@ footer{
 	font-family: 'Righteous', cursive;
 }
 
-.ticker-disclaimer {
+/*.ticker-disclaimer {
 	color: #fefdfd;
 	text-transform: lowercase;
 	font-size: 10px;
@@ -281,7 +297,7 @@ footer{
 	pointer-events: none;
 	top: 0;
 	border-left: 1px solid #e2e4e3;
-}
+}*/
 
 .ticker-container .ticker-carroussel::-webkit-scrollbar {
 	display: none;
