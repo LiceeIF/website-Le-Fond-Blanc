@@ -3,8 +3,13 @@
 
 *{
     padding: 5px;
-    margin: 10px;
+    margin: 0;
     text-decoration: none;
+}
+
+.content{
+    /*padding-top: 150px;*/
+    margin-left: 70px;
 }
 
 .titulo-paragrafo{
@@ -13,11 +18,16 @@
     font-weight: none;
     /*background: linear-gradient(135.15deg,#01796F , #fff);*/
     color:#000;
-    text-align: center;
+    text-align: left;
+    margin-left: 75px;
+    /*background-color: #292929;*/
 }
 
 .titulo-paragrafo-principal{
     /*border-top: 0.4px solid #000;*/
+    font-size: 100px;
+    text-align: left;
+    margin-left: 75px;
 }
 
 .texto-titulo-paragrafo{
@@ -42,11 +52,24 @@ body{
 }
 
 .cabecalho{
-    margin: 0;
+    /*margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    background-color: #000;*/
+    transition: top 0.3s;
+    /* top: 0;
+    position: fixed;
+    width: 100%;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-top: 0;
+    padding: 20px; /* Adicione um espaçamento interno ao cabeçalho */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; /* Se quiser alinhar a logo e o menu nas extremidades */
     background-color: #000;
 }
 
@@ -62,7 +85,7 @@ body{
 }
 
 .sumario{
-    padding-left: 75px;
+    padding-left: 0px;
     font-weight: 700; 
     line-height: 0.50;
     font-family: 'Montserrat', sans-serif;
@@ -70,6 +93,7 @@ body{
 
 .secoes{
     color: black;
+    line-height: 1.0;
 }
 
 .secoes:hover{
@@ -79,8 +103,12 @@ body{
 
 .content{
     /*border-top: 0.4px solid #000;*/
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+
+.titulo-introducao{
+    align-items: center;
 }
 
 .introducao-paragrafo{
@@ -109,6 +137,7 @@ body{
 .lca-paragrafo{
     text-indent: 55px;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 35px;
 }
 
 .lci-paragrafo{
@@ -123,25 +152,40 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.conclusion{
+    padding-top: 10px;
+    border-top: 0.4px solid #000;
+}
+
 .conclusion-text{
     font-family: 'Montserrat', sans-serif;
+    text-indent: 55px;
+    padding-bottom: 20px;
+}
+
+.referencias-titulo{
+    padding-top: 10px;
+    border-top: 0.4px solid #000;
 }
 
 .referencias-texto{
+    padding-top: 10px;
     color: #000;
-    font-size: 12px;
-    line-height: 0;
+    font-size: 15px;
+    line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
 }
 
 .rodape{
 	margin-top: 100px;
 	padding: 32px;
+    margin-left: 0;
+    margin-right: 0;
 	border-top: 0.4px solid #000;
 }
 
 .rodape-imagem{
-	height: 40px;
+	height: 35px;
 	display: block;
 	margin: 0 auto;
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/rendavariavel.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-    <style>
+   <!--<style>
         .title{
             display: flex;
             justify-content: center;
@@ -19,33 +19,34 @@
             width: 80vw;
             text-align: justify;
         }
-    </style>
+    </style>-->
+    
 </head>
-<body>
+
     <header class="cabecalho">
-        <img class="logo" src="img/tituloLOGO.png" alt="imagem da logo">
+        <img class="logo" src="img/LOGO NOCTURNE.png" alt="imagem da logo">
         <nav class="cabecalho-menu">
-            <a href="index.html" class="#cabecalho-menu-item">Le Fond Blanc</a> <!-- fazer o clique parar no final da site-->
+            <a href="index.html" class="cabecalho-menu-item">Le Fond Blanc</a> 
         </nav>
     </header>
 
     <main class="conteudo-principal"> 
         <body class="body-of-main">
             <div class="title">
-                <h1>Renda variável </h1>
-                <h2>Tudo que você precisa saber em um guia rápido e completo</h2>
+                <h1 class="titulo-h1">Renda variável </h1>
+                <h2 class="titulo-h2">Tudo que você precisa saber em um guia rápido e completo</h2>
             </div>
-            <div>
+            <div class="ul-introducao">
                 <ul>
-                    <li><a href="#secao-1">Introdução</a>
+                    <li><a class="topico-introducao" href="#secao-1">Introdução</a>
                         <ul>
-                            <li><a href="#subsecao-1-1">Ações diversas</a></li>
-                            <li><a href="#subsecao-1-2">Fundos de investimentos imobiliários (FII) </a></li>
+                            <li><a class="topico-introducao" href="#subsecao-1-1">Ações diversas</a></li>
+                            <li><a class="topico-introducao" href="#subsecao-1-2">Fundos de investimentos imobiliários (FII) </a></li>
                         </ul>
                     </li>
-                    <li><a href="#secao-2">Conclusão</a>
+                    <li ><a class="topico-introducao" href="#secao-2">Conclusão</a>
                         <ul>
-                            <li><a href="#subsecao-2-1">Referências</a></li>
+                            <li><a class="topico-introducao" href="#subsecao-2-1">Referências</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -54,11 +55,10 @@
                 <div>
                     <div class="title">
 
-                        <!-- TradingView Widget BEGIN: CONSTA ERROS MAS DEVEM SER IGNORADOS POR ORA  -->
-<!-- TradingView Widget BEGIN -->
+                        <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="red-text">Monitore todos os mercados no TradingView</span></a></div>
+    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
     {
     "symbols": [
@@ -75,10 +75,10 @@
         "MSFT|1D"
       ],
       [
-        "NASDAQ:AMZN|ALL"
+        "NASDAQ:AMZN|1D"
       ],
       [
-        "NASDAQ:META|ALL"
+        "NASDAQ:META|1D"
       ]
     ],
     "chartOnly": false,
@@ -103,8 +103,8 @@
     "maLineColor": "#2962FF",
     "maLineWidth": 1,
     "maLength": 9,
-    "fontColor": "rgba(0, 0, 0, 1)",
-    "lineWidth": 3,
+    "widgetFontColor": "rgba(0, 0, 0, 1)",
+    "lineWidth": 2,
     "lineType": 0,
     "dateRanges": [
       "1d|1",
@@ -114,46 +114,45 @@
       "60m|1W",
       "all|1M"
     ],
-    "lineColor": "rgba(255, 255, 255, 1)",
-    "topColor": "rgba(165, 214, 167, 1)",
-    "bottomColor": "rgba(250, 161, 164, 1)"
+    "lineColor": "rgba(149, 152, 161, 1)",
+    "topColor": "rgba(120, 123, 134, 1)",
+    "bottomColor": "rgba(178, 181, 190, 1)"
   }
     </script>
   </div>
   <!-- TradingView Widget END -->
+    <h1 id="secao-1">Introdução</h1>
+        </div>
+            <p class="acao-texto"> ㅤㅤAnalisando todos os fundos de investimentos imobiliários (FII) existentes no mundo, decidimos que esses fundos
+                (FIIs) podem ser uma decisão estratégica e financeiramente vantajosa para diversos
+                investidores. Esses fundos oferecem uma maneira acessível e diversificada de entrar no
+                mercado imobiliário, proporcionando benefícios como renda regular, potencial de valorização
+                de patrimônio e liquidez. A escolha de FIIs específicos, como o <strong> Real Estate Multigestão
+                FII (JSRE11)</strong> ou o <strong>Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11)</strong>,
+                pode ser motivada por suas características distintas, tais como <i>estratégias de gestão, foco em
+                setores específicos ou localizações privilegiadas</i>. Neste contexto, a escolha de FIIs pode ser
+                orientada por objetivos de investimento, diversificação de carteira, e <b>preferências pessoais></b>,
+                visando maximizar os retornos e mitigar riscos no mercado imobiliário. É importante realizar
+                uma análise cuidadosa, considerando os <b>objetivos financeiros individuais</b> e a <b>adequação ao
+                perfil de risco</b>, antes de escolher investir em fundos imobiliários específicos.
+                <br> 
+                ㅤㅤE sobre as ações, escolhemos ações referências mundiais para mostrar ao público que gestão depende também de muita calma, e ações de empresas líderes como <i>Apple,
+                Amazon, Microsoft, Alphabet (Google) e Meta Platforms (Facebook)</i> é atraente devido à sua
+                constante inovação, liderança em seus setores, histórico de crescimento sustentável,
+                ecossistemas integrados, diversificação e potencial de longo prazo. No entanto, investir em
+                ações carrega riscos, e é importante conduzir uma análise cuidadosa, considerando seus
+                objetivos financeiros e consultando um profissional financeiro, pois o desempenho passado
+                não garante resultados futuros. Essas empresas são referências no mercado devido à sua
+                capacidade de adaptação e sucesso.
+                </p>
+            </div>
 
-                        <h1 id="secao-1">Introdução</h1>
-                    </div>
-                    <p class="introducao"> ㅤㅤAnalisando todos os fundos de investimentos imobiliários (FII) existentes no mundo, decidimos que esses fundos
-                        (FIIs) podem ser uma decisão estratégica e financeiramente vantajosa para diversos
-                        investidores. Esses fundos oferecem uma maneira acessível e diversificada de entrar no
-                        mercado imobiliário, proporcionando benefícios como renda regular, potencial de valorização
-                        de patrimônio e liquidez. A escolha de FIIs específicos, como o <strong> Real Estate Multigestão
-                        FII (JSRE11)</strong> ou o <strong>Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11)</strong>,
-                        pode ser motivada por suas características distintas, tais como <i>estratégias de gestão, foco em
-                        setores específicos ou localizações privilegiadas</i>. Neste contexto, a escolha de FIIs pode ser
-                        orientada por objetivos de investimento, diversificação de carteira, e <b>preferências pessoais></b>,
-                        visando maximizar os retornos e mitigar riscos no mercado imobiliário. É importante realizar
-                        uma análise cuidadosa, considerando os <b>objetivos financeiros individuais</b> e a <b>adequação ao
-                        perfil de risco</b>, antes de escolher investir em fundos imobiliários específicos.
-                        <br>
-                        
-                        ㅤㅤE sobre as ações, escolhemos ações referências mundiais para mostrar ao público que gestão depende também de muita calma, e ações de empresas líderes como <i>Apple,
-                        Amazon, Microsoft, Alphabet (Google) e Meta Platforms (Facebook)</i> é atraente devido à sua
-                        constante inovação, liderança em seus setores, histórico de crescimento sustentável,
-                        ecossistemas integrados, diversificação e potencial de longo prazo. No entanto, investir em
-                        ações carrega riscos, e é importante conduzir uma análise cuidadosa, considerando seus
-                        objetivos financeiros e consultando um profissional financeiro, pois o desempenho passado
-                        não garante resultados futuros. Essas empresas são referências no mercado devido à sua
-                        capacidade de adaptação e sucesso.
-                    </p>
-                </div>
                 <div>
                     <div class="title">
                         <h2 id="subsecao-1-1">Ações diversas</h2>
                     </div>
                     <p class="acao-titulo">1º APPLE Inc. (AAPL):
-                    <p> <b>Descrição:</b> A Apple Inc. se dedica ao design, fabricação e venda de smartphones, computadores pessoais,
+                    <p class="acao-texto"> <b>Descrição:</b> A Apple Inc. se dedica ao design, fabricação e venda de smartphones, computadores pessoais,
                         tablets, wearables e acessórios, e outros serviços relacionados. Ela opera através dos seguintes segmentos 
                         regionais: Américas, Europa, China, Japão e Resto da Ásia-Pacífico. O segmento das Américas inclui as Américas
                         do Norte e do Sul. O segmento da Europa consiste em países europeus, assim como Índia, Oriente Médio e África.
@@ -162,11 +161,11 @@
                         Apple Care, iCloud, lojas de conteúdo digital, streaming, e serviços de licenciamento. 
                             <br>A empresa foi fundada por Steven Paul Jobs, Ronald Gerald Wayne, e Stephen G. Wozniak em 1976 e está sediada em Cupertino, CA. </br>
                     </p>
-                        <p> <b>Destaque:</b> A Apple possui uma base de clientes leais e é conhecida por seu design inovador,
+                        <p class="acao-texto"> <b>Destaque:</b> A Apple possui uma base de clientes leais e é conhecida por seu design inovador,
                         qualidade de produtos e ecossistema integrado. </p>
 
                         <p class="acao-titulo"> 2º AMAZON.COM Inc. ( AMZO34): </p>
-                        <p>Descrição: Amazon.com, Inc. se dedica à prestação de serviços de compras de varejo on-line. 
+                        <p class="acao-texto">Descrição: Amazon.com, Inc. se dedica à prestação de serviços de compras de varejo on-line. 
                             Ela opera através dos seguintes segmentos de negócios: América do Norte, Internacional, e Amazon Web Services (AWS). 
                             O segmento da América do Norte inclui vendas de varejo de produtos de consumo e assinaturas através de websites 
                             focados na América do Norte, como www.amazon.com e www.amazon.ca. O segmento Internacional oferece vendas a varejo de 
@@ -174,292 +173,271 @@
                             globais de computação, armazenamento, banco de dados e ofertas de serviços AWS para start-ups, empresas, agências governamentais e instituições acadêmicas. 
                             <br>A empresa foi fundada por Jeffrey P. Bezos em julho de 1994 e está sediada em Seattle, WA.</br>
                            </p>
-                        <p>Destaque: A Amazon domina o comércio online e é líder em serviços em nuvem, além de
+                        <p class="acao-texto">Destaque: A Amazon domina o comércio online e é líder em serviços em nuvem, além de
                         estar constantemente expandindo para novos setores.</p>
 
-                        <!-- TradingView Widget BEGIN 
-                        <div class="tradingview-widget-container">
-                            <div class="tradingview-widget-container__widget"></div>
-                            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
-                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
-                            {
-                            "width": 480,
-                            "height": 650,
-                            "colorTheme": "light",
-                            "isTransparent": false,
-                            "symbol": "NASDAQ:AMZN",
-                            "locale": "br"
-                        }
-                            </script>
-                        </div>
-                        TradingView Widget END -->
-
                         <p class="acao-titulo"> 3º MICROSOFT CORPORATION (MSFT): </p>
-                        <p>Descrição: A Microsoft é uma das maiores empresas de tecnologia do mundo, com produtos
+                        <p class="acao-texto">Descrição: A Microsoft é uma das maiores empresas de tecnologia do mundo, com produtos
                         como o Windows, Office, serviços em nuvem (Azure) e soluções empresariais.</p>
-                        <p>Destaque: A Microsoft tem um portfólio diversificado e é líder em software empresarial e
+                        <p class="acao-texto">Destaque: A Microsoft tem um portfólio diversificado e é líder em software empresarial e
                         serviços em nuvem, competindo com empresas como a Amazon e a Google. </p>
 
                         <p class="acao-titulo"> 4º ALPHABET Inc. (GOOGL): </p>
-                        <p>Descrição: A Alphabet é a empresa-mãe da Google, envolvida em pesquisa, publicidade
+                        <p class="acao-texto">Descrição: A Alphabet é a empresa-mãe da Google, envolvida em pesquisa, publicidade
                         online, serviços em nuvem e inovação em tecnologia.</p>
-                        <p>Destaque: A Google é a principal ferramenta de pesquisa na internet e a Alphabet está
+                        <p class="acao-texto">Destaque: A Google é a principal ferramenta de pesquisa na internet e a Alphabet está
                         expandindo sua presença em serviços em nuvem e inteligência artificial. </p>
 
                         <p class="acao-titulo">5º META PLATFORMS, Inc. (FB): </p>
-                        <p>Descrição: A Meta é a empresa-mãe do Facebook e está envolvida em redes sociais,
+                        <p class="acao-texto"><b>Descrição:</b> A Meta é a empresa-mãe do Facebook e está envolvida em redes sociais,
                         realidade virtual (Oculus), e-commerce e publicidade digital.  </p>
-                        <p>Destaque: A Meta é responsável por algumas das maiores plataformas de mídia social, como
+                        <p class="acao-texto"><b>Destaque:</b> A Meta é responsável por algumas das maiores plataformas de mídia social, como
                         o Facebook e o Instagram, e está explorando tecnologias futuristas, como a realidade virtual e
                         aumentada.
                     </p>
                 </div>
+
                 <div>
                     <div class="title">
                         <h2 id="subsecao-1-2">Fundos de investimentos imobiliários (FII) </h2>
                     </div>
-                    <p style="text-align: justify;">
-                        <p class="fii-titulo">  BRCO11 (Bresco Logística FII):</p>
-                        <p> ㅤㅤO Bresco Logística Fundo de Investimento Imobiliário é um tipo de investimento que se
+                        <p class="fii-titulo"> BRCO11 (Bresco Logística FII):</p>
+                        <p class="acao-texto"> O Bresco Logística Fundo de Investimento Imobiliário é um tipo de investimento que se
                         concentra na geração de renda por meio da locação ou arrendamento de propriedades
                         comerciais nos setores logístico e industrial. Esse fundo é classificado como "fundo de
                         tijolo," o que significa que possui ativos imobiliários físicos, como edifícios e instalações
-                        industriais. </p>
+                        industriais.
 
-                        <br> ㅤㅤ Segmento de Atuação: O fundo se especializa em propriedades comerciais nos setores
+                        <br> <b>Segmento de Atuação:</b> O fundo se especializa em propriedades comerciais nos setores
                         logístico e industrial, o que geralmente envolve galpões, armazéns, centros de distribuição e
-                        instalações relacionadas à logística e produção industrial. 
+                        instalações relacionadas à logística e produção industrial. </p>
 
-                        <br> ㅤㅤ Renda: O principal objetivo do fundo é gerar renda para os investidores. Isso é alcançado
+                        <p class="acao-texto"> <br> <b>Renda:</b> O principal objetivo do fundo é gerar renda para os investidores. Isso é alcançado
                         através da locação ou arrendamento das propriedades para empresas que precisam de espaço
-                        para suas operações logísticas ou industriais.
+                        para suas operações logísticas ou industriais. </p>
 
-                        <br> ㅤㅤ Gestão Ativa: O fundo é gerido de forma ativa pelo Gestor, que toma decisões relacionadas à
+                        <p class="acao-texto"><br> <b>Gestão Ativa:</b> O fundo é gerido de forma ativa pelo Gestor, que toma decisões relacionadas à
                         compra, venda e administração dos ativos imobiliários dentro da carteira do fundo. Essa
-                        gestão busca otimizar o desempenho e a rentabilidade do fundo.
+                        gestão busca otimizar o desempenho e a rentabilidade do fundo.</p>
 
-                        <br> ㅤㅤ Ativos Imobiliários: Os ativos do fundo são propriedades físicas, como galpões industriais e
+                        <p class="acao-texto"> <br> <b>Ativos Imobiliários:</b> Os ativos do fundo são propriedades físicas, como galpões industriais e
                         instalações logísticas. O objetivo é obter renda regular por meio da locação desses imóveis a
-                        empresas que necessitam de espaço para suas atividades operacionais.
+                        empresas que necessitam de espaço para suas atividades operacionais. </p>
 
-                        <br> ㅤㅤ Renda para Investidores: Os rendimentos gerados pelas locações e arrendamentos são
+                        <p class="acao-texto"><br> <b>Renda para Investidores:</b> Os rendimentos gerados pelas locações e arrendamentos são
                         distribuídos aos cotistas do fundo, proporcionando uma fonte de renda regular para os
-                        investidores.
-                        <br> ㅤㅤ Segmento Específico: Ao se concentrar no setor logístico e industrial, o fundo está exposto a
-                        tendências e demandas específicas desses mercados, o que pode influenciar seu desempenho.
+                        investidores.</p>
 
-                        <br> ㅤㅤ Em resumo, o Bresco Logística Fundo de Investimento Imobiliário é um veículo de
+                        <p class="acao-texto"><br> <b>Segmento Específico:</b> Ao se concentrar no setor logístico e industrial, o fundo está exposto a
+                        tendências e demandas específicas desses mercados, o que pode influenciar seu desempenho. </p>
+
+                        <p class="acao-texto"><br> Em resumo, o Bresco Logística Fundo de Investimento Imobiliário é um veículo de
                         investimento que se especializa em propriedades comerciais no setor logístico e industrial,
                         com o objetivo principal de gerar renda para os investidores por meio da locação ou
                         arrendamento desses ativos. A gestão ativa dos ativos é realizada pelo Gestor do fundo,
-                        visando maximizar o retorno para os cotistas.
+                        visando maximizar o retorno para os cotistas. </p>
                     </p>
 
-                    <p class="fii-titulo"> ㅤㅤ TEPP11 (TELLUS PROPERTIES FII):</p>
-                        <br> ㅤㅤO Fundo de Lajes Corporativas com foco em edifícios de escritórios "classe A e B" em São
-                        Paulo, chamado de TEPP (sigla para Total Economic Participation Program), é um tipo de
-                        Fundo de Investimento Imobiliário (FII) com uma estratégia específica e única. Abaixo, você
-                        encontrará um resumo detalhado das principais características desse fundo:
-                        <br><b> ㅤㅤSegmento de Atuação:</b> O TEPP concentra seus investimentos em edifícios de escritórios
-                        localizados em São Paulo, especialmente em imóveis classificados como "classe A e B". Isso
-                        significa que o fundo busca propriedades bem localizadas e de qualidade para locação
-                        comercial.
-                        <br><b> ㅤㅤPotencial de Valorização:</b> O diferencial desse fundo está na sua estratégia de criação de
-                        valor. Ele procura adquirir edifícios que tenham potencial para valorização por meio de
-                        intervenções ou "retrofit". Isso envolve modernizar e atualizar os prédios para torná-los mais
-                        atrativos para locatários e, assim, aumentar o valor do investimento.
-                        <br><b> ㅤㅤParticipação Ativa na Gestão:</b> O TEPP não se limita apenas a ser um investidor passivo.
-                        Ele tem uma abordagem ativa na gestão dos imóveis. Isso significa que o fundo não apenas
-                        investe em propriedades, mas também participa ativamente da tomada de decisões
-                        relacionadas à administração e melhorias nos edifícios.
-                        <br><b> ㅤㅤCapacidade de Influência:</b> O fundo possui a capacidade de influenciar as decisões dos
-                        demais proprietários dos imóveis que fazem parte de sua carteira. Essa influência é utilizada
-                        para implementar as melhorias planejadas, como o retrofit, de forma mais eficaz e alinhada
-                        com a estratégia do fundo.
-                        <br><b> ㅤㅤHorizonte de Investimento de Longo Prazo:</b> A estratégia do TEPP requer tempo para
-                        implementar as melhorias nos imóveis e colher os benefícios da valorização. Portanto, o
-                        fundo adota uma abordagem de investimento de longo prazo, visando maximizar os retornos
-                        ao longo do tempo.
-                        <br><b>Renda e Valorização:</b> Além da valorização do patrimônio por meio das melhorias nos
-                        imóveis, o TEPP também pode gerar renda para os investidores por meio da locação
-                        comercial dos escritórios.
-                        <br>ㅤㅤEm resumo, o TEPP é um Fundo de Investimento Imobiliário que se especializa em edifícios
-                        de escritórios de alta qualidade em São Paulo. Sua estratégia única envolve a busca por
-                        propriedades com potencial de valorização através de intervenções, participação ativa na
-                        gestão dos imóveis e influência sobre as decisões dos demais proprietários. O fundo adota
-                        uma abordagem de investimento de longo prazo, combinando a geração de renda com a
-                        valorização do patrimônio.
+                    <p class="acao-titulo"> TEPP11 (TELLUS PROPERTIES FII):</p>
+                    <p class="acao-texto"><br> O Fundo de Lajes Corporativas com foco em edifícios de escritórios "classe A e B" em São
+                Paulo, chamado de TEPP (sigla para Total Economic Participation Program), é um tipo de
+                Fundo de Investimento Imobiliário (FII) com uma estratégia específica e única. Abaixo, você
+                encontrará um resumo detalhado das principais características desse fundo:
+                <br><b>Segmento de Atuação:</b> O TEPP concentra seus investimentos em edifícios de escritórios
+                localizados em São Paulo, especialmente em imóveis classificados como "classe A e B". Isso
+                significa que o fundo busca propriedades bem localizadas e de qualidade para locação
+                comercial.
+                <br><b>Potencial de Valorização:</b> O diferencial desse fundo está na sua estratégia de criação de
+                valor. Ele procura adquirir edifícios que tenham potencial para valorização por meio de
+                intervenções ou "retrofit". Isso envolve modernizar e atualizar os prédios para torná-los mais
+                atrativos para locatários e, assim, aumentar o valor do investimento.
+                <br><b>Participação Ativa na Gestão:</b> O TEPP não se limita apenas a ser um investidor passivo.
+                Ele tem uma abordagem ativa na gestão dos imóveis. Isso significa que o fundo não apenas
+                investe em propriedades, mas também participa ativamente da tomada de decisões
+                relacionadas à administração e melhorias nos edifícios.
+                <br><b>Capacidade de Influência:</b> O fundo possui a capacidade de influenciar as decisões dos
+                demais proprietários dos imóveis que fazem parte de sua carteira. Essa influência é utilizada
+                para implementar as melhorias planejadas, como o retrofit, de forma mais eficaz e alinhada
+                com a estratégia do fundo.
+                <br><b>Horizonte de Investimento de Longo Prazo:</b> A estratégia do TEPP requer tempo para
+                implementar as melhorias nos imóveis e colher os benefícios da valorização. Portanto, o
+                fundo adota uma abordagem de investimento de longo prazo, visando maximizar os retornos
+                ao longo do tempo.
+                <br><b>Renda e Valorização:</b> Além da valorização do patrimônio por meio das melhorias nos
+                imóveis, o TEPP também pode gerar renda para os investidores por meio da locação
+                comercial dos escritórios.
+                <br>Em resumo, o TEPP é um Fundo de Investimento Imobiliário que se especializa em edifícios
+                de escritórios de alta qualidade em São Paulo. Sua estratégia única envolve a busca por
+                propriedades com potencial de valorização através de intervenções, participação ativa na
+                gestão dos imóveis e influência sobre as decisões dos demais proprietários. O fundo adota
+                uma abordagem de investimento de longo prazo, combinando a geração de renda com a
+                valorização do patrimônio.</p>
 
-                        <p class="fii-titulo"> 3º XPPR11 (XP PROPETIES): </p>
-                        <br>O XP Properties (código XPPR11) é um Fundo de Investimento Imobiliário (FII) que possui
-                        uma estratégia de gestão focada em três áreas específicas: lajes corporativas, educação e
-                        hospitais. Aqui está um resumo detalhado das principais características desse fundo:
-                        <br><b>Segmento de Atuação:</b> O XPPR11 concentra seus investimentos em três setores-chave: lajes
-                        corporativas (espaços de escritórios), educação (propriedades relacionadas a instituições de
-                        ensino) e hospitais (imóveis ligados a serviços de saúde).
-                        <br><b>Fonte de Renda:</b> O fundo obtém sua renda por meio da locação dos ativos que possui. Isso
-                        significa que ele aluga essas propriedades para empresas, instituições de ensino ou entidades
-                        de saúde, gerando uma fonte de renda regular.
-                        <br><b> ㅤㅤLucros Imobiliários:</b> Além da renda de locação, o XPPR11 também busca lucros
-                        imobiliários. Isso acontece por meio da reciclagem de seu portfólio. O fundo pode vender
-                        propriedades existentes que tenham se valorizado e reinvestir os recursos em novos
-                        empreendimentos ou melhorias em seu portfólio.
-                        <br><b> ㅤㅤLocalização:</b> A carteira do fundo está principalmente situada no Estado de São Paulo. Isso
-                        inclui cinco conjuntos comerciais já em operação e um empreendimento em construção. A
-                        localização em São Paulo, um importante centro econômico e comercial do Brasil, pode ser
-                        estratégica para a geração de renda e valorização dos ativos.
-                        <br><b> ㅤㅤÁrea Bruta Locável (ABL):</b> O fundo encerrou o mês de dezembro de 2021 com uma Área
-                        Bruta Locável de 76,7 mil metros quadrados (m²). Isso representa o espaço total disponível
-                        para locação nos imóveis da carteira.
-                        <br><b> ㅤㅤGestão Profissional:</b> O XPPR11 é gerido por profissionais especializados, que tomam
-                        decisões relacionadas à compra, venda e administração dos ativos imobiliários com o
-                        objetivo de maximizar os retornos para os investidores.
-                        <br><b> ㅤㅤDiversificação Setorial:</b> A estratégia do fundo abrange diferentes setores, o que proporciona
-                        uma diversificação de risco. Isso significa que ele não está dependente exclusivamente de um
-                        único segmento, reduzindo a volatilidade dos retornos.
-                        <br> ㅤㅤEm resumo, o XP Properties (XPPR11) é um Fundo de Investimento Imobiliário que se
-                        especializa em lajes corporativas, educação e hospitais, obtendo renda por meio da locação de
-                        ativos e buscando lucros imobiliários por meio da reciclagem do portfólio. Sua carteira inclui
-                        ativos no Estado de São Paulo, e sua gestão é realizada por profissionais qualificados,
-                        visando maximizar os retornos para os investidores.
+                <p class="fii-titulo"> 3º XPPR11 (XP PROPETIES): </p>
+                <br>O XP Properties (código XPPR11) é um Fundo de Investimento Imobiliário (FII) que possui
+                uma estratégia de gestão focada em três áreas específicas: lajes corporativas, educação e
+                hospitais. Aqui está um resumo detalhado das principais características desse fundo:
+                <br><b>Segmento de Atuação:</b> O XPPR11 concentra seus investimentos em três setores-chave: lajes
+                corporativas (espaços de escritórios), educação (propriedades relacionadas a instituições de
+                ensino) e hospitais (imóveis ligados a serviços de saúde).
+                <br><b>Fonte de Renda:</b> O fundo obtém sua renda por meio da locação dos ativos que possui. Isso
+                significa que ele aluga essas propriedades para empresas, instituições de ensino ou entidades
+                de saúde, gerando uma fonte de renda regular.
+                <br><b> Lucros Imobiliários:</b> Além da renda de locação, o XPPR11 também busca lucros
+                imobiliários. Isso acontece por meio da reciclagem de seu portfólio. O fundo pode vender
+                propriedades existentes que tenham se valorizado e reinvestir os recursos em novos
+                empreendimentos ou melhorias em seu portfólio.
+                <br><b>Localização:</b> A carteira do fundo está principalmente situada no Estado de São Paulo. Isso
+                inclui cinco conjuntos comerciais já em operação e um empreendimento em construção. A
+                localização em São Paulo, um importante centro econômico e comercial do Brasil, pode ser
+                estratégica para a geração de renda e valorização dos ativos.
+                <br><b>Área Bruta Locável (ABL):</b> O fundo encerrou o mês de dezembro de 2021 com uma Área
+                Bruta Locável de 76,7 mil metros quadrados (m²). Isso representa o espaço total disponível
+                para locação nos imóveis da carteira.
+                <br><b>Gestão Profissional:</b> O XPPR11 é gerido por profissionais especializados, que tomam
+                decisões relacionadas à compra, venda e administração dos ativos imobiliários com o
+                objetivo de maximizar os retornos para os investidores.
+                <br><b>Diversificação Setorial:</b> A estratégia do fundo abrange diferentes setores, o que proporciona
+                uma diversificação de risco. Isso significa que ele não está dependente exclusivamente de um
+                único segmento, reduzindo a volatilidade dos retornos.
+                <br>Em resumo, o XP Properties (XPPR11) é um Fundo de Investimento Imobiliário que se
+                especializa em lajes corporativas, educação e hospitais, obtendo renda por meio da locação de
+                ativos e buscando lucros imobiliários por meio da reciclagem do portfólio. Sua carteira inclui
+                ativos no Estado de São Paulo, e sua gestão é realizada por profissionais qualificados,
+                visando maximizar os retornos para os investidores.
 
-                        <p class="fii-titulo">LVBI11 (VBI LOGÍSTICO FII):</p> 
-                        <br><b> ㅤㅤO Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11)</b> é um fundo listado
-                        na B3 (Bolsa de Valores brasileira) com o objetivo principal de gerar renda e ganho de capital
-                        por meio de um portfólio diversificado de ativos no segmento logístico. Aqui está um resumo
-                        detalhado das principais características desse fundo:
-                        <br><b> ㅤㅤFoco no Segmento Logístico:</b> O LVBI11 concentra seus investimentos em ativos
-                        relacionados ao setor logístico, o que inclui galpões e centros de distribuição. Esse setor é
-                        estratégico devido à crescente demanda por espaços de armazenamento e distribuição,
-                        impulsionada pelo comércio eletrônico e pela logística moderna.
-                        <br><b> ㅤㅤGeração de Renda:</b> O fundo busca gerar renda regular por meio da locação de seus ativos
-                        logísticos. Empresas que necessitam de espaço para estocagem e distribuição alugam esses
-                        galpões, proporcionando uma fonte constante de renda para os investidores.
-                        <br><b> ㅤㅤGanho de Capital:</b> Além da renda de locação, o LVBI11 visa a obtenção de ganho de
-                        capital. Isso pode ocorrer quando o fundo compra, valoriza e vende propriedades logísticas
-                        com lucro, proporcionando uma valorização das cotas do fundo ao longo do tempo.
-                        <br><b> ㅤㅤLocalização Estratégica:</b> A maioria dos empreendimentos logísticos da carteira do fundo
-                        está localizada em regiões-chave de distribuição, muitos deles situados em um raio de 30km
-                        da cidade de São Paulo. Essa localização estratégica é vantajosa para atender à demanda
-                        logística da maior área metropolitana do Brasil.
-                        <br><b> ㅤㅤDiversificação Geográfica:</b> Embora muitos ativos estejam próximos a São Paulo, o fundo
-                        também busca diversificação geográfica, o que pode incluir investimentos em outras regiões
-                        do Brasil, reduzindo o risco de concentração.
-                        <br><b> ㅤㅤResiliência:</b> O fundo busca construir um portfólio líquido e resiliente, o que significa que
-                        seus ativos têm a capacidade de resistir a diferentes cenários econômicos e situações
-                        adversas, mantendo a estabilidade de renda para os investidores.
-                        <br><b> ㅤㅤNegociação na Bolsa:</b> Como um FII listado na B3, as cotas do LVBI11 são negociadas
-                        publicamente, o que proporciona liquidez aos investidores que desejam comprar ou vender
-                        participações no fundo.
-                        <br> ㅤㅤEm resumo, o Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11) é um FII
-                        que foca em ativos logísticos, buscando renda por meio de locação e ganho de capital com a
-                        valorização desses ativos. Sua carteira é composta principalmente por galpões logísticos
-                        localizados em áreas estratégicas de distribuição, com destaque para a proximidade com São
-                        Paulo. O fundo visa a construir um portfólio diversificado, líquido e resiliente para benefício
-                        dos investidores.
+                <p class="acao-titulo">LVBI11 (VBI LOGÍSTICO FII):</p> 
+                <br><b>O Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11)</b> é um fundo listado
+                na B3 (Bolsa de Valores brasileira) com o objetivo principal de gerar renda e ganho de capital
+                por meio de um portfólio diversificado de ativos no segmento logístico. Aqui está um resumo
+                detalhado das principais características desse fundo:
+                <br><b>Foco no Segmento Logístico:</b> O LVBI11 concentra seus investimentos em ativos
+                relacionados ao setor logístico, o que inclui galpões e centros de distribuição. Esse setor é
+                estratégico devido à crescente demanda por espaços de armazenamento e distribuição,
+                impulsionada pelo comércio eletrônico e pela logística moderna.
+                <br><b>Geração de Renda:</b> O fundo busca gerar renda regular por meio da locação de seus ativos
+                logísticos. Empresas que necessitam de espaço para estocagem e distribuição alugam esses
+                galpões, proporcionando uma fonte constante de renda para os investidores.
+                <br><b>Ganho de Capital:</b> Além da renda de locação, o LVBI11 visa a obtenção de ganho de
+                capital. Isso pode ocorrer quando o fundo compra, valoriza e vende propriedades logísticas
+                com lucro, proporcionando uma valorização das cotas do fundo ao longo do tempo.
+                <br><b>Localização Estratégica:</b> A maioria dos empreendimentos logísticos da carteira do fundo
+                está localizada em regiões-chave de distribuição, muitos deles situados em um raio de 30km
+                da cidade de São Paulo. Essa localização estratégica é vantajosa para atender à demanda
+                logística da maior área metropolitana do Brasil.
+                <br><b>Diversificação Geográfica:</b> Embora muitos ativos estejam próximos a São Paulo, o fundo
+                também busca diversificação geográfica, o que pode incluir investimentos em outras regiões
+                do Brasil, reduzindo o risco de concentração.
+                <br><b>Resiliência:</b> O fundo busca construir um portfólio líquido e resiliente, o que significa que
+                seus ativos têm a capacidade de resistir a diferentes cenários econômicos e situações
+                adversas, mantendo a estabilidade de renda para os investidores.
+                <br><b>Negociação na Bolsa:</b> Como um FII listado na B3, as cotas do LVBI11 são negociadas
+                publicamente, o que proporciona liquidez aos investidores que desejam comprar ou vender
+                participações no fundo.
+                <br>Em resumo, o Logística VBI Logística Fundo de Investimento Imobiliário (LVBI11) é um FII
+                que foca em ativos logísticos, buscando renda por meio de locação e ganho de capital com a
+                valorização desses ativos. Sua carteira é composta principalmente por galpões logísticos
+                localizados em áreas estratégicas de distribuição, com destaque para a proximidade com São
+                Paulo. O fundo visa a construir um portfólio diversificado, líquido e resiliente para benefício
+                dos investidores.
 
-                        <p class="fii-titulo">JSRE11 (JS REAL ESATE MULTIGESTÃO FII):</p>
-                        <br><b> ㅤㅤO JS Real Estate Multigestão FII (JSRE11)</b> é um Fundo de Investimento Imobiliário (FII) que
-                        adota uma abordagem de multigestão, o que significa que conta com diversos gestores para
-                        administrar seus ativos imobiliários. Abaixo, você encontrará um resumo detalhado das
-                        principais características desse fundo:
-                        <br><b> ㅤㅤMultigestão:</b> O JSRE11 se diferencia pela sua estratégia de multigestão, onde múltiplos
-                        gestores são responsáveis pela administração da carteira de ativos imobiliários. Cada gestor
-                        pode trazer sua expertise e estratégia específica para o fundo, proporcionando uma
-                        diversificação adicional e uma variedade de abordagens de investimento.
-                        <br><b> ㅤㅤFoco em Ativos Imobiliários:</b> O fundo concentra seus investimentos em ativos imobiliários,
-                        que podem incluir diversos tipos de propriedades, como edifícios comerciais, lajes
-                        corporativas, shoppings, galpões logísticos, entre outros.
-                        <br><b> ㅤㅤObjetivo de Renda e Ganho de Capital:</b> O JSRE11 busca gerar renda para os investidores
-                        por meio da locação de seus ativos e também procura ganhos de capital, seja pela valorização
-                        dos imóveis ou por meio da venda estratégica de propriedades.
-                        <br><b> ㅤㅤDiversificação de Ativos e Gestores:</b> A estratégia de multigestão permite uma diversificação
-                        tanto de ativos quanto de gestores, o que pode reduzir o risco e melhorar o desempenho do
-                        fundo.
-                        <br><b> ㅤㅤLiquidez:</b> As cotas do JSRE11 são negociadas em bolsa de valores, proporcionando liquidez
-                        aos investidores que desejam comprar ou vender participações no fundo.
-                        <br><b> ㅤㅤPolítica de Distribuição de Rendimentos:</b> O fundo geralmente distribui rendimentos
-                        periodicamente aos cotistas, provenientes dos aluguéis e eventuais lucros. A política de
-                        distribuição pode variar de acordo com a estratégia dos gestores.
-                        <br><b> ㅤㅤGestão Profissional:</b> Os gestores do fundo são profissionais qualificados e experientes no
-                        mercado imobiliário, o que contribui para a gestão eficiente dos ativos.
-                        <br><b> ㅤㅤObjetivo de Longo Prazo:</b> O JSRE11 adota uma visão de longo prazo em seus
-                        investimentos, buscando maximizar o retorno ao longo do tempo.
-                        <br><b> ㅤㅤEstratégia de Investimento Flexível:</b> Devido à abordagem de multigestão, o fundo pode
-                        ajustar sua estratégia de investimento de acordo com as condições de mercado e as
-                        oportunidades que surgem.
-                        <br>ㅤㅤEm resumo, o JS Real Estate Multigestão FII (JSRE11) é um Fundo de Investimento
-                        Imobiliário que se destaca por sua estratégia de multigestão, envolvendo múltiplos gestores
-                        na administração de sua carteira de ativos imobiliários. O fundo busca renda e ganho de
-                        capital por meio da diversificação de ativos e estratégias de investimento. Suas cotas são
-                        negociadas em bolsa, proporcionando liquidez aos investidores.
+                <p class="acao-titulo">JSRE11 (JS REAL ESATE MULTIGESTÃO FII):</p>
+                <br><b>O JS Real Estate Multigestão FII (JSRE11)</b> é um Fundo de Investimento Imobiliário (FII) que
+                adota uma abordagem de multigestão, o que significa que conta com diversos gestores para
+                administrar seus ativos imobiliários. Abaixo, você encontrará um resumo detalhado das
+                principais características desse fundo:
+                <br><b>Multigestão:</b> O JSRE11 se diferencia pela sua estratégia de multigestão, onde múltiplos
+                gestores são responsáveis pela administração da carteira de ativos imobiliários. Cada gestor
+                pode trazer sua expertise e estratégia específica para o fundo, proporcionando uma
+                diversificação adicional e uma variedade de abordagens de investimento.
+                <br><b>Foco em Ativos Imobiliários:</b> O fundo concentra seus investimentos em ativos imobiliários,
+                que podem incluir diversos tipos de propriedades, como edifícios comerciais, lajes
+                corporativas, shoppings, galpões logísticos, entre outros.
+                <br><b>Objetivo de Renda e Ganho de Capital:</b> O JSRE11 busca gerar renda para os investidores
+                por meio da locação de seus ativos e também procura ganhos de capital, seja pela valorização
+                dos imóveis ou por meio da venda estratégica de propriedades.
+                <br><b>Diversificação de Ativos e Gestores:</b> A estratégia de multigestão permite uma diversificação
+                tanto de ativos quanto de gestores, o que pode reduzir o risco e melhorar o desempenho do
+                fundo.
+                <br><b>Liquidez:</b> As cotas do JSRE11 são negociadas em bolsa de valores, proporcionando liquidez
+                aos investidores que desejam comprar ou vender participações no fundo.
+                <br><b>Política de Distribuição de Rendimentos:</b> O fundo geralmente distribui rendimentos
+                periodicamente aos cotistas, provenientes dos aluguéis e eventuais lucros. A política de
+                distribuição pode variar de acordo com a estratégia dos gestores.
+                <br><b>Gestão Profissional:</b> Os gestores do fundo são profissionais qualificados e experientes no
+                mercado imobiliário, o que contribui para a gestão eficiente dos ativos.
+                <br><b>Objetivo de Longo Prazo:</b> O JSRE11 adota uma visão de longo prazo em seus
+                investimentos, buscando maximizar o retorno ao longo do tempo.
+                <br><b>Estratégia de Investimento Flexível:</b> Devido à abordagem de multigestão, o fundo pode
+                ajustar sua estratégia de investimento de acordo com as condições de mercado e as
+                oportunidades que surgem.
+                <br>Em resumo, o JS Real Estate Multigestão FII (JSRE11) é um Fundo de Investimento
+                Imobiliário que se destaca por sua estratégia de multigestão, envolvendo múltiplos gestores
+                na administração de sua carteira de ativos imobiliários. O fundo busca renda e ganho de
+                capital por meio da diversificação de ativos e estratégias de investimento. Suas cotas são
+                negociadas em bolsa, proporcionando liquidez aos investidores.
             </div>
             
-            <h1 id="secao-2">Conclusão</h1>
-            <p>Acompanhe as consultas que fizemos para trazer a maior segurança para você:</p>
-            
-            <h2 id="subsecao-2-1">Referências</h2>
-            <div>
-                <ul>
-                    <li>
-                        <a href="https://conteudos.xpi.com.br/fundos-imobiliarios/top-25-fundos-imobiliarios/?gclid=Cj0KCQjwmvSoBhDOARIsAK6aV7g-vJyCuB3yyJFKp52U4Isw4gMlll4GWLGQO-wgPFSm9kgCmDUWyecaAijvEALw_wcB">XP investimentos</a>
-                    </li>
+        <h1 id="secao-2">Conclusão</h1>
+        <p>Acompanhe as consultas que fizemos para trazer a maior segurança para você:</p>
+        
+        <h2 id="subsecao-2-1">Referências</h2>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://conteudos.xpi.com.br/fundos-imobiliarios/top-25-fundos-imobiliarios/?gclid=Cj0KCQjwmvSoBhDOARIsAK6aV7g-vJyCuB3yyJFKp52U4Isw4gMlll4GWLGQO-wgPFSm9kgCmDUWyecaAijvEALw_wcB">XP investimentos</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.clubefii.com.br/fiis/BRCO11"> Clube FII</a>
-                    </li>
+                <li>
+                    <a href="https://www.clubefii.com.br/fiis/BRCO11"> Clube FII</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.linkedin.com/company/bresco-investimentos-sa">BRESCO INVESTIMENTOS - LInkedin profile</a>
-                    </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/bresco-investimentos-sa">BRESCO INVESTIMENTOS - LInkedin profile</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.tellusproperties.com.br/fundo/visao-geral/ ">Fundo: visão geral - TellUsProperties</a>
-                    </li>
+                <li>
+                    <a href="https://www.tellusproperties.com.br/fundo/visao-geral/ ">Fundo: visão geral - TellUsProperties</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.fundsexplorer.com.br/funds/xppr11 ">FundsExplorer</a>
-                    </li>
+                <li>
+                    <a href="https://www.fundsexplorer.com.br/funds/xppr11 ">FundsExplorer</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.lvbi11.com.br/">LVBI11</a>
-                    </li>
+                <li>
+                    <a href="https://www.lvbi11.com.br/">LVBI11</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.safra.com.br/safra-asset/fundo-imobiliario/js-real-estate.htm">BANCO SAFRA</a>
-                    </li>
+                <li>
+                    <a href="https://www.safra.com.br/safra-asset/fundo-imobiliario/js-real-estate.htm">BANCO SAFRA</a>
+                </li>
 
-                    <li>
-                        <a href="https://br.investing.com/equities/apple-computer-inc">INVESTING - APPLE</a>
-                    </li>
+                <li>
+                    <a href="https://br.investing.com/equities/apple-computer-inc">INVESTING - APPLE</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.infomoney.com.br/cotacoes/b3/bdr/amazon-amzo34/">INFOMONEY - AMAZON B3</a>
-                    </li>
+                <li>
+                    <a href="https://www.infomoney.com.br/cotacoes/b3/bdr/amazon-amzo34/">INFOMONEY - AMAZON B3</a>
+                </li>
 
-                    <li>
-                        <a href="https://statusinvest.com.br/acoes/eua/msft">ATIVOS MICROSOFT</a>
-                    </li>
+                <li>
+                    <a href="https://statusinvest.com.br/acoes/eua/msft">ATIVOS MICROSOFT</a>
+                </li>
 
-                    <li>
-                        <a href="https://www.infomoney.com.br/cotacoes/nasdaq/acao/alphabet-inc-class-a-googl/">INFOMONEY - NASDAQ GOOGLE</a>
-                    </li>
+                <li>
+                    <a href="https://www.infomoney.com.br/cotacoes/nasdaq/acao/alphabet-inc-class-a-googl/">INFOMONEY - NASDAQ GOOGLE</a>
+                </li>
 
-                    <li>
-                        <a href="https://br.advfn.com/bolsa-de-valores/nasdaq/FB/cotacao">NASDAQ ADVFN</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-
-            <footer class="rodape">
-                <img class="rodape-imagem" src="img/tituloLOGO.png">
-            </footer>
-
-
-        </body>
-
-    </main>
-    
-</body>
+                <li>
+                    <a href="https://br.advfn.com/bolsa-de-valores/nasdaq/FB/cotacao">NASDAQ ADVFN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+                <footer class="rodape">
+                    <img class="rodape-imagem" src="img/tituloLOGO.png">
+                </footer>
+            </body>
+        </main> 
+    </body>
 </html>

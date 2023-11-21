@@ -1,60 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 
-*{
-    padding: 0;
-    /*box-sizing: border-box;*/
+.conteudo-principal{
+    padding-left: 100px;
+    padding-right: 80px;
+    margin-bottom: 48px;
+	border-top: 0.4px solid rgb(23, 21, 21);
+}
+
+.cabecalho{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-top: 0;
+    padding: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #000;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color: white;
     text-decoration: none;
+}
+
+.cabecalho-menu-item:hover{
+    color: #01796F;
+    transition: 0.9s;
+}
+
+.tradingview-widget-container{
+    padding-left: 200px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+}
+
+.titulo-h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0px;
+}
+
+.topico-introducao{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.introducao-fii{
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 55px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 35px;
+    color: #000;
 }
 
 body{
     margin: 16px;
     font-size: 100%;
     margin: 12px;   
-    /* background: linear-gradient(68.15deg, #d8d8d8 15.62%, #ffffff 16.61% ); */
     color: rgb(0, 0, 0);
-    /*background-color: #000;*/
 }
 
-ul {
-    list-style-type: circle;
-    padding: 0px;
-    margin-left: 35px;
-}
 
 li {
     margin-left: 20px;
-}
-
-a {
-    text-decoration:dashed;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
-    cursor: pointer;
-    font-family: 'Righteous', cursive;
 }
 
-a:hover {
-    text-decoration: none;
-    color: palevioletred;
-    transition: 0.5s;
-}
-
-.introducao{
-    margin: 35px;
-    text-indent: 0;
-    display: inline;
-    gap: 5px;
+.acao-texto{
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 55px;
+    line-height: 1.5;
 }
 
 .acao-titulo{
     font-weight: bolder;
     font-size: large;
     margin: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fii-titulo{
-    font-weight: bolder;
-    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 h2{
@@ -62,10 +106,6 @@ h2{
     margin: 35px;
 }
 
-.conteudo-principal{
-    margin-bottom: 48px;
-	border-top: 0.4px solid rgb(23, 21, 21);
-}
 
 .logo{
     width: 310px;
@@ -84,13 +124,6 @@ h2{
 .cabecalho-menu{
     display: flex;
     gap: 32px;
-}
-
-.cabecalho-menu-item{
-    /*font-family: 'Sarala', sans-serif;*/
-    color: rgb(0, 0, 0);
-    font-weight: 400;
-    font-size: 18px;
 }
 
 h1{
@@ -117,7 +150,3 @@ p{
 	display: block;
 	margin: 0 auto;
 }
-
-/*.tradingview-widget-container{
-    align-items: center;
-}*/
