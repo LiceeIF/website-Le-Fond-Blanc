@@ -7,6 +7,8 @@
     text-decoration: none;
 }
 
+/*ajustar esse para que o rodape seja consertado*/
+
 .content{
     /*padding-top: 150px;*/
     margin-left: 70px;
@@ -16,7 +18,6 @@
     font-family: 'Righteous', cursive;
     font-size: xx-large;
     font-weight: none;
-    /*background: linear-gradient(135.15deg,#01796F , #fff);*/
     color:#000;
     text-align: left;
     margin-left: 75px;
@@ -24,10 +25,10 @@
 }
 
 .titulo-paragrafo-principal{
-    /*border-top: 0.4px solid #000;*/
     font-size: 100px;
     text-align: left;
-    margin-left: 75px;
+    margin-left: 15px;
+    font-family: 'Righteous', cursive;
 }
 
 .texto-titulo-paragrafo{
@@ -89,6 +90,7 @@ body{
     font-weight: 700; 
     line-height: 0.50;
     font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
 }
 
 .secoes{
@@ -109,6 +111,9 @@ body{
 
 .titulo-introducao{
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-indent: 55px;
 }
 
 .introducao-paragrafo{
@@ -164,8 +169,10 @@ body{
 }
 
 .referencias-titulo{
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-left: 55px;
     border-top: 0.4px solid #000;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .referencias-texto{
@@ -174,9 +181,15 @@ body{
     font-size: 15px;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
 }
 
-.rodape{
+.referencias-texto:hover{
+    color: #01796F;
+    transition: 0.9s;
+}
+
+/*.rodape{
 	margin-top: 100px;
 	padding: 32px;
     margin-left: 0;
@@ -186,6 +199,20 @@ body{
 
 .rodape-imagem{
 	height: 35px;
+	display: block;
+	margin: 0 auto;
+}*/
+
+.rodape{
+    margin-top: 50px;
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+	border-top: 0.4px solid #000;
+}
+
+.rodape-imagem{
+	height: 40px;
 	display: block;
 	margin: 0 auto;
 }
