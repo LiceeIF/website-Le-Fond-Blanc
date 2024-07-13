@@ -17,7 +17,6 @@
 
 - [@LiceeIF](https://github.com/LiceeIF): **Alice Maria: programadora e designer**
 - [@txminxtz](https://github.com/txminxtz): *Bruno Taminato*
-- [@CaioBertaglia](https://github.com/CaioBertaglia): *Caio Lucas*
 - [@Pedrogui123456](https://github.com/Pedrogui123456): *Pedro Guilherme*
 
 **turma 231-A | informática**
